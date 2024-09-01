@@ -9,16 +9,16 @@ import "../Css Component/contact.css";
 Modal.setAppElement("#root");
 
 const Contact = () => {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
+  // const [modalIsOpen, setModalIsOpen] = useState(false);
 
-  const handleContactForm = (e) => {
-    e.preventDefault();
-    setModalIsOpen(true); // Open the modal on form submission
-  };
+  // // const handleContactForm = (e) => {
+  // //   e.preventDefault();
+  // //   setModalIsOpen(true); // Open the modal on form submission
+  // // };
 
-  const closeModal = () => {
-    setModalIsOpen(false); // Close the modal
-  };
+  // const closeModal = () => {
+  //   setModalIsOpen(false); // Close the modal
+  // };
 
   return (
     <div className="contact poppins_font">
@@ -38,9 +38,12 @@ const Contact = () => {
         </div>
         <div className="contact_form">
           <form
-            onSubmit={handleContactForm}
-            className="max-w-lg mx-auto p-6 rounded-lg shadow-lg"
-          >
+            action="https://api.web3forms.com/submit" method="POST"
+            
+            className="max-w-lg mx-auto p-6 rounded-lg shadow-lg">
+
+            <input type="hidden" name="access_key" value="01a63042-f3e1-4267-aa70-f988f72fcc94" />
+
             <div className="relative z-0 w-full mb-6 group">
               <input
                 type="text"
@@ -115,13 +118,12 @@ const Contact = () => {
       </div>
 
       {/* Modal Component */}
-      <Modal
+      {/* <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         className="error-modal"
         overlayClassName="error-modal-overlay"
-        closeTimeoutMS={300}
-      >
+        closeTimeoutMS={300}>
         <h2 className="modal-title">Error</h2>
         <p className="modal-message">
           An error has occurred. Please try again later.
@@ -129,7 +131,7 @@ const Contact = () => {
         <button onClick={closeModal} className="close-button">
           Close
         </button>
-      </Modal>
+      </Modal> */}
     </div>
   );
 };
