@@ -1,0 +1,16 @@
+.tools{
+    width: 100%;
+    margin: 6rem 0;
+}
+.tools_box{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media (max-width:751px) {
+    .tools_box{
+        flex-wrap: wrap;
+    }
+}

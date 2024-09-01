@@ -1,0 +1,26 @@
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    color: #38a169; /* Tailwind's green-600 */
+    padding-bottom: 2px;
+}
+
+.nav-link::after {
+    color: #38a169;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #38a169; /* Tailwind's green-600 */
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+.transition {
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+

@@ -1,0 +1,26 @@
+.skills{
+    width: 60%;
+    margin: 6rem auto;
+}
+.skills_box{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.skills_box div:hover{
+    
+}
+
+@media (max-width:578px) {
+    .skills{
+        width: 90%;
+    }
+}
+
+@media (max-width:390px) {
+    .skills{
+        width: 100%;
+    }
+}

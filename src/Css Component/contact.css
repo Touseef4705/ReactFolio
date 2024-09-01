@@ -1,0 +1,131 @@
+.contact{
+    margin: 7rem 0;
+    width: 100%;
+}
+
+.contact_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact_content{
+    width: 50%;
+}
+.contact_content h1{
+    font-size: 2.8rem;
+}
+.contact_content h3{
+    width: 60%;
+    font-size: 1.3rem;
+    /* margin: 0 auto; */
+}
+
+.contact_form{
+    padding: 1rem;
+    width: 30%;
+    background-image: url("https://plus.unsplash.com/premium_photo-1673292293042-cafd9c8a3ab3?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    border: 1px solid #16a34a;
+}
+.contact_form form{
+    backdrop-filter: blur(2px);
+    border-radius: 1rem;
+}
+
+@media (max-width:1041px) {
+    .contact_content{
+        width: 100%;
+        text-align: center;
+    }
+    .contact_content h3{
+        margin: 0 auto;
+    }
+    .contact_form{
+        width: 60%;
+    }
+}
+
+@media (max-width:544px) {
+    .contact_form{
+        width: 90%;
+    }
+}
+
+/* Modal CSS */
+.error-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: #16a34a; /* Red background for error */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 90%; /* Responsive width */
+    max-width: 500px;
+    animation: slide-down 0.3s ease-out;
+  }
+  
+  .error-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    animation: fade-in 0.3s ease-out;
+  }
+  
+  .modal-title {
+    margin-bottom: 15px;
+    color: #ff2b2b;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  .modal-message {
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .close-button {
+    display: block;
+    margin: 0 auto;
+    background: white;
+    color: #16a34c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .close-button:hover {
+    background-color: #16a34a;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  @keyframes slide-down {
+    from {
+      transform: translate(-50%, -40%);
+    }
+    to {
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
