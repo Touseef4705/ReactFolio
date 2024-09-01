@@ -24,7 +24,7 @@ function Projects() {
                     </div>
                     <div className="border border-green-500 rounded-md w-full lg:w-2/4 h-80 flex justify-center items-center">
                         <img
-                            src="/public/Project1.PNG"
+                            src="/Project1.PNG"
                             className="w-full rounded-md h-full object-cover object-center"
                             alt="Portfolio Preview"
                         />
@@ -48,7 +48,7 @@ function Projects() {
                     </div>
                     <div className="border border-green-500 rounded-md w-full lg:w-2/4 h-80 flex justify-center items-center">
                         <img
-                            src="/public/Project3.PNG"
+                            src="/Project3.PNG"
                             className="w-full rounded-md h-full object-cover object-center"
                             alt="Portfolio Preview"
                         />
@@ -69,7 +69,7 @@ function Projects() {
                     </div>
                     <div className="border border-green-500 rounded-md w-full lg:w-2/4 h-80 flex justify-center items-center">
                         <img
-                            src="/public/Project.PNG"
+                            src="/Project.PNG"
                             className="w-full rounded-md h-full object-cover object-center"
                             alt="Portfolio Preview"
                         />
@@ -90,7 +90,7 @@ function Projects() {
                     </div>
                     <div className="border border-green-500 rounded-md w-full lg:w-2/4 h-80 flex justify-center items-center">
                         <img
-                            src="/public/Project5.PNG"
+                            src="/Project5.PNG"
                             className="w-full rounded-md h-full object-cover object-center"
                             alt="Portfolio Preview"
                         />
