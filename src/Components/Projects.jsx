@@ -97,6 +97,90 @@ function Projects() {
                     </div>
                 </div>
 
+                {/* 5th Project */}
+                <div className="project_content border border-white my-2 w-11/12 mx-auto rounded-md h-54">
+                    <div className="lg:w-2/4 md:w-3/4 p-6 poppins_font">
+                        <h1 className="text-3xl py-4 font-bold">Attendence Portal</h1>
+                        <p className="text-gray-300">
+                            I developed a student attendance portal using HTML, CSS, and JavaScript. This portal allows for seamless tracking of student attendance, showcasing my ability to create functional and user-friendly web applications with front-end technologies.
+                        </p>
+                        <a href="https://attendance-portal-theta.vercel.app/" target="blank" class="Download-button my-3">
+                            <FontAwesomeIcon icon={faRocket} />
+                            <span>Live Preview</span>
+                        </a>
+                    </div>
+                    <div className="border border-green-500 rounded-md w-full lg:w-2/4 h-80 flex justify-center items-center">
+                        <img
+                            src="/Project2.PNG"
+                            className="w-full rounded-md h-full object-cover object-center"
+                            alt="Portfolio Preview"
+                        />
+                    </div>
+                </div>
+
+                {/* 6th Project */}
+                <div className="project_content border border-white my-2 w-11/12 mx-auto rounded-md h-54">
+                    <div className="lg:w-2/4 md:w-3/4 p-6 poppins_font">
+                        <h1 className="text-3xl py-4 font-bold">Text Editor</h1>
+                        <p className="text-gray-300">
+                            I created a text editor app using HTML, CSS, and JavaScript. This app provides a smooth and user-friendly experience for writing and editing text, demonstrating my skills in developing functional web applications with front-end technologies.
+                        </p>
+                        <a href="https://text-editor-six-livid.vercel.app/" target="blank" class="Download-button my-3">
+                            <FontAwesomeIcon icon={faRocket} />
+                            <span>Live Preview</span>
+                        </a>
+                    </div>
+                    <div className="border border-green-500 rounded-md w-full lg:w-2/4 h-80 flex justify-center items-center">
+                        <img
+                            src="/Project4.PNG"
+                            className="w-full rounded-md h-full object-cover object-center"
+                            alt="Portfolio Preview"
+                        />
+                    </div>
+                </div>
+
+                {/* 7th Project */}
+                <div className="project_content border border-white my-2 w-11/12 mx-auto rounded-md h-54">
+                    <div className="lg:w-2/4 md:w-3/4 p-6 poppins_font">
+                        <h1 className="text-3xl py-4 font-bold">Calculator App</h1>
+                        <p className="text-gray-300">
+                            I developed a calculator using HTML, CSS, and JavaScript. This calculator offers a user-friendly interface for performing basic arithmetic operations, showcasing my ability to create interactive and functional web applications using front-end technologies.
+                        </p>
+                        <a href="https://touseef4705.github.io/Calculator/" target="blank" class="Download-button my-3">
+                            <FontAwesomeIcon icon={faRocket} />
+                            <span>Live Preview</span>
+                        </a>
+                    </div>
+                    <div className="border border-green-500 rounded-md w-full lg:w-2/4 h-80 flex justify-center items-center">
+                        <img
+                            src="/Project6.PNG"
+                            className="w-full rounded-md h-full object-cover object-center"
+                            alt="Portfolio Preview"
+                        />
+                    </div>
+                </div>
+
+                {/* 8th Project */}
+                <div className="project_content border border-white my-2 w-11/12 mx-auto rounded-md h-54">
+                    <div className="lg:w-2/4 md:w-3/4 p-6 poppins_font">
+                        <h1 className="text-3xl py-4 font-bold">Todo With React</h1>
+                        <p className="text-gray-300">
+                            I developed a Todo app using React, designed for easy task management. The app features a clean and modern user interface, allowing users to add, delete, and toggle tasks with seamless interactivity. This project demonstrates my proficiency in React and front-end development, with a focus on creating functional and user-friendly applications.
+                        </p>
+                        <a href="https://react-todo-zeta-rouge.vercel.app/" target="blank" class="Download-button my-3">
+                            <FontAwesomeIcon icon={faRocket} />
+                            <span>Live Preview</span>
+                        </a>
+                    </div>
+                    <div className="border border-green-500 rounded-md w-full lg:w-2/4 h-80 flex justify-center items-center">
+                        <img
+                            src="/Project7.PNG"
+                            className="w-full rounded-md h-full object-cover object-center"
+                            alt="Portfolio Preview"
+                        />
+                    </div>
+                </div>
+
             </div>
         </div>
     )
