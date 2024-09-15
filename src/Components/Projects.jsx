@@ -186,7 +186,7 @@ function Projects() {
                     <div className="lg:w-2/4 md:w-3/4 p-6 poppins_font">
                         <h1 className="text-3xl py-4 font-bold">React Quiz App</h1>
                         <p className="text-gray-300">
-                        I built a Quiz App using React with an interactive UI. It allows users to answer questions, track their score, and get instant feedback, showcasing my skills in React and user-friendly web development.
+                            I built a Quiz App using React with an interactive UI. It allows users to answer questions, track their score, and get instant feedback, showcasing my skills in React and user-friendly web development.
                         </p>
                         <a href="https://react-quiz-app-two-chi.vercel.app/" target="blank" class="Download-button my-3">
                             <FontAwesomeIcon icon={faRocket} />
@@ -196,6 +196,27 @@ function Projects() {
                     <div className="border border-green-500 rounded-md w-full lg:w-2/4 h-80 flex justify-center items-center">
                         <img
                             src="/Project8.PNG"
+                            className="w-full rounded-md h-full object-cover object-center"
+                            alt="Portfolio Preview"
+                        />
+                    </div>
+                </div>
+
+                {/* 10th Project */}
+                <div className="project_content border border-white my-2 w-11/12 mx-auto rounded-md h-54">
+                    <div className="lg:w-2/4 md:w-3/4 p-6 poppins_font">
+                        <h1 className="text-3xl py-4 font-bold">Git Finder App</h1>
+                        <p className="text-gray-300">
+                            A React.js app to search GitHub profiles and view repo details, followers, and stats. It uses the GitHub API for real-time data and highlights my skills in API integration and web development.
+                        </p>
+                        <a href="https://git-finder-nine-olive.vercel.app/" target="blank" class="Download-button my-3">
+                            <FontAwesomeIcon icon={faRocket} />
+                            <span>Live Preview</span>
+                        </a>
+                    </div>
+                    <div className="border border-green-500 rounded-md w-full lg:w-2/4 h-80 flex justify-center items-center">
+                        <img
+                            src="/Project9.PNG"
                             className="w-full rounded-md h-full object-cover object-center"
                             alt="Portfolio Preview"
                         />
