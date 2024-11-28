@@ -1,5 +1,6 @@
 import "../App.css"
 import "../Css Component/skills.css"
+import { FaHtml5,FaCss3 , FaBootstrap  } from "react-icons/fa";
 
 function Skills() {
     return (
@@ -7,15 +8,15 @@ function Skills() {
             <h1 className="dream_font text-5xl mt-5 ml-10 underline text-center"><span className="text-green-500 underline">Ski</span>lls</h1>
             <div className="skills_box">
                 <div className="h-32 w-40 bg-gray-100 text-black flex flex-col justify-center items-center rounded-md">
-                    <img src="/skills/html.png" className="h-16 w-16" alt="" />
+                    <FaHtml5 className="h-16 w-16"  />
                     <b>HTML 5</b>
                 </div>
                 <div className="h-32 w-40 bg-gray-100 text-black flex flex-col justify-center items-center rounded-md">
-                    <img src="/skills/css.png" className="h-16 w-16" alt="" />
+                    <FaCss3 className="h-16 w-16"  />
                     <b>CSS3</b>
                 </div>
                 <div className="h-32 w-40 bg-gray-100 text-black flex flex-col justify-center items-center rounded-md">
-                    <img src="/skills/bootstrap.png" className="h-16 w-16" alt="" />
+                    <FaBootstrap className="h-16 w-16" />
                     <b>BOOTSTRAP</b>
                 </div>
                 <div className="h-32 w-40 bg-gray-100 text-black flex flex-col justify-center items-center rounded-md">

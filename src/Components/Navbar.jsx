@@ -5,6 +5,9 @@ import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import EditNoteOutlinedIcon from '@mui/icons-material/EditNoteOutlined';
 import ContactsOutlinedIcon from '@mui/icons-material/ContactsOutlined';
+import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
+
+
 import '../Css Component/navbar.css';
 import { Link } from "react-router-dom";
 
@@ -36,6 +39,9 @@ function Navbar() {
                     <Link to="/Projects" className="nav-link hover:text-green-400 px-2">
                         <EditNoteOutlinedIcon className="text-white" /> Projects
                     </Link>
+                    <Link to="/Experience" className="nav-link hover:text-green-400 px-2">
+                        <BusinessCenterIcon className="text-white" /> Experience
+                    </Link>
                     <Link to="/Contact" className="nav-link hover:text-green-400 px-2">
                         <ContactsOutlinedIcon className="text-white" /> Contact
                     </Link>
@@ -61,6 +67,9 @@ function Navbar() {
                 </Link>
                 <Link to="/Projects" className="nav-link hover:text-green-500 px-2 py-3">
                     <EditNoteOutlinedIcon className="text-white" /> Projects
+                </Link>
+                <Link to="/Experience" className="nav-link hover:text-green-400 px-2">
+                    <BusinessCenterIcon className="text-white" /> Experience
                 </Link>
                 <Link to="/Contact" className="nav-link hover:text-green-500 px-2 py-3">
                     <ContactsOutlinedIcon className="text-white" /> Contact
