@@ -48,7 +48,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path='/' element={<> <Hero/> <About /> <Education /> <Projects /> <Experience/> <Skills /> <Tools /> <Contact /> </>} />
+          <Route path='/' element={<> <Hero/> <About /> <Education /> <Experience/> <Projects /> <Skills /> <Tools /> <Contact /> </>} />
           <Route path='/About' element={<About />} />
           <Route path='/Projects' element={<Projects />} />
           <Route path='/Experience' element={<Experience />} />
