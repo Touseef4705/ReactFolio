@@ -28,7 +28,7 @@ function Hero() {
                 <h1 className="w-2/4 mx-auto mt-2 text-gray-400">
                     A passionate Front-end Developer 🚀 having an experience of building Websites with JavaScript / Reactjs and some other outstanding libraries and frameworks.
                 </h1>
-                <a href="/TouseefAbidCv.pdf" download="TouseefAbidCv.pdf" class="btn mx-auto mt-3">
+                <a href="/TouseefCv.pdf" download="TouseefCv.pdf" class="btn mx-auto mt-3">
                     <strong className="poppins_font text-md"><FontAwesomeIcon icon={faDownload} /> Download CV</strong>
                     <div id="container-stars">
                         <div id="stars"></div>
